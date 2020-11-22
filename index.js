@@ -5,6 +5,4 @@ const defaults = require('./config/default.js');
 
 const port = defaults.port;
 
-server.listen(port, () => console.log(`\n** Server is up on port ${port} **\n`))
-
-//config\defualt.js
+server.listen(port, () => console.log(`\n** Server is up on port ${port} **\n`));
