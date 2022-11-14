@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 
@@ -10,7 +11,7 @@ const server = express();
 //Server use...
 server.use(helmet());
 server.use(cors());
-server.use(express.json());
+server.use(bodyParser.json());
 
 //Server Routes
 
