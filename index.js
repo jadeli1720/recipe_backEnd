@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-const server = require('./api/server.js');
-const defaults = require('./config/default.js');
+const server = require('./api/server');
+const defaults = require('./config/default');
 
 const port = defaults.port;
 
